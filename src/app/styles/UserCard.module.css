@@ -1,0 +1,59 @@
+.card {
+    background: #545454; /* Fondo gris claro */
+    padding: 40px; /* Aumenta el padding para hacerla más grande */
+    border-radius: 20px;
+    width: 45%;
+    height: 55%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: auto;
+    transition: all 0.3s ease;
+    color: white; /* Letras blancas */
+}
+
+.avatar-container {
+    display: flex;
+    align-items: center; /* Alinea el avatar y el texto verticalmente */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    gap: 10px; /* Espacio entre el avatar y el texto */
+    margin-bottom: 20px; /* Espacio entre el avatar y el siguiente contenido */
+}
+
+.avatar {
+    width: 160px; /* Aumenta el tamaño del avatar */
+    height: 160px;
+    border-radius: 50%;
+    border: 8px solid #f9f9f9;
+    margin-bottom: 10px;
+    margin-right: 80px;
+}
+
+.icons svg {
+    width: 60px; /* Aumenta el tamaño de los iconos */
+    height: 60px;
+    color: #aaa;
+    transition: color 0.3s ease;
+}
+
+.icons svg:hover {
+    color: #f8f8f8;
+    transform: scale(1.2);
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los iconos */
+    margin-top: 20px;
+    cursor: pointer;
+    flex-direction: row; /* Alinea los iconos en fila horizontal */
+}
+
+.card h2 {
+    font-weight: bold; /* Pon el nombre en negritas */
+}
+
+.card p {
+    font-weight: bold; /* Pone el texto de la información en negritas */
+    margin-top: 10px; /* Espacio entre la foto y el texto */
+}
