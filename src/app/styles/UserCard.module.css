@@ -11,6 +11,8 @@
     color: white; /* Letras blancas */
 }
 
+
+
 .avatar-container {
     display: flex;
     align-items: center; /* Alinea el avatar y el texto verticalmente */
@@ -57,3 +59,20 @@
     font-weight: bold; /* Pone el texto de la información en negritas */
     margin-top: 10px; /* Espacio entre la foto y el texto */
 }
+
+.refreshButton {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s ease;
+  }
+  
+  .refreshButton:hover {
+    background-color: #374ea2;
+  }
+  
